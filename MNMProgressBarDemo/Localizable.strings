@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  MNMProgressBarDemo
+
+  Created by Mario Negro Martín on 31/01/12.
+  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+*/
+
+"PROGRESS_INDETERMINATE_BUTTON_ON_TEXT" = "Indeterminate progress ON";
+"PROGRESS_INDETERMINATE_BUTTON_OFF_TEXT" = "Indeterminate progress OFF";
+"PROGRESS_SLIDER_INFO_TEXT" = "Move slider to change progress";

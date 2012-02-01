@@ -1,0 +1,5 @@
+Custom progress bar view to show determinate and indeterminate progress.
+
+1) Copy entire 'MNMProgressBar' folder into your project
+
+2) See usage in 'MNMPBDViewController'
