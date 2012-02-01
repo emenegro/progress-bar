@@ -76,13 +76,11 @@ const CGFloat MNMProgressBarIndeterminateProgress = -1.0f;
         }
                 
         backgroundImageView_ = [[UIImageView alloc] initWithFrame:CGRectMake(0.0f, 0.0f, CGRectGetWidth(frame), CGRectGetHeight(frame))];
-        backgroundImageView_.autoresizingMask = self.autoresizingMask;
         backgroundImageView_.image = [[UIImage imageNamed:@"progress_background.png"] stretchableImageWithLeftCapWidth:2 topCapHeight:0];
         
         [self addSubview:backgroundImageView_];
         
         progressImageView_ = [[UIImageView alloc] initWithFrame:CGRectMake(0.0f, 0.0f, 0.0f, frame.size.height)];
-        progressImageView_.autoresizingMask = self.autoresizingMask;
         progressImageView_.animationDuration = 0.25f;
         
         [self addSubview:progressImageView_];
